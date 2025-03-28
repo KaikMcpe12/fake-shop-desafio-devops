@@ -21,7 +21,7 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags: fabricioveronez/fake-shop-desafio:v2
+          tags: kaikmcpe/fake-shop-desafio:v1
   CD:
     needs: [CI]
     runs-on: ubuntu-latest
